@@ -1,0 +1,28 @@
+.b-catalog-head {
+    margin-bottom: 20px;
+    padding: 5px 0 0;
+}
+.b-catalog-head .catalog-head__title {
+    display: inline;
+    margin-right: 10px;
+}
+.b-catalog-head .catalog-head__results {
+    font-size: 24px;
+    font-weight: 400;
+}
+.b-catalog-head .catalog-head__tags {
+    margin-top: 10px;
+}
+.b-catalog-head .catalog-head__tags span {
+    min-width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    padding: 8px 0;
+    color: var(--color-secondary);
+    background: var(--bg-secondary);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.b-catalog-head {}
+.b-catalog-head {}

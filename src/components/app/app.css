@@ -1,0 +1,79 @@
+/* fonts */
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Thin.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../../../public/fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+/* ------------------------------ */
+:root {
+    /* fonts */
+    --roboto: "Roboto", sans-serif;
+    /* transitions */
+    --tr-primary: .3s;
+    /* shadow */
+    --shadow-primary: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* colors */
+    --color-primary: #0f0f0f;
+    --color-secondary: #4d4d4d;
+    --color-tertiary: #e7ebed;
+    --color-quaternary: #fff;
+    --color-quinary: #2196f3;
+    /* backgrounds */
+    --bg-primary: #fff;
+    --bg-secondary: #e7ebed;
+    --bg-tertiary: #2196f3;
+    --bg-quaternary: #0f0f0f;
+    /*  */
+    --page-desktop: 1300px;
+}
+/* ------------------ */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: var(--color-primary);
+    height: 100%;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+/* ------------------ */
+#root {
+    height: 100%;
+}
+/* ------------------ */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

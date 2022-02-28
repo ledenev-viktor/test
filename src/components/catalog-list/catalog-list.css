@@ -1,0 +1,13 @@
+.b-catalog-list {
+    margin: 0  -15px 35px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 540px) {
+    .b-catalog-list {
+        margin: 0 0 35px;
+    }
+}

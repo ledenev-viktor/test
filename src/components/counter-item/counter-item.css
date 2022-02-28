@@ -1,0 +1,32 @@
+.b-counter-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+.b-counter-item .counter-item__btn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: transparent;
+}
+.b-counter-item .counter-item__btn--plus,
+.b-counter-item .counter-item__btn--minus {
+    font-size: 18px;
+    background: #2196f3;
+    width: 30px;
+    height: 30px;
+    color: var(--color-quaternary);
+    transition: var(--tr-primary);
+    opacity: .8;
+    border-radius: 100%;
+}
+.b-counter-item .counter-item__btn--plus:hover,
+.b-counter-item .counter-item__btn--minus:hover {
+    opacity: 1;
+}
+.b-counter-item .counter-item__count-input {
+    max-width: 50px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 20px;
+}

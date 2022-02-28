@@ -1,0 +1,16 @@
+.b-pagination {
+    text-align: center;
+}
+.b-pagination > *:not(:last-child) {
+    margin-right: 10px;
+    display: inline-block;
+}
+.b-pagination ul > * {
+    display: inline-block;
+}
+.b-pagination ul > *:not(:last-child) {
+    margin-right: 5px;
+}
+.b-pagination button {
+    cursor:pointer;
+}

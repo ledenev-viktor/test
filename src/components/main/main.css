@@ -1,0 +1,21 @@
+.l-layout {
+    background: var(--bg-primary);
+    flex: 1 0 auto;
+    padding: 40px 0 0 0;
+}
+.l-layout .layout__inner {
+    margin: 0 auto;
+    max-width: var(--page-desktop);
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media(max-width: 1240px) {
+    .l-layout {
+        padding: 40px 20px 0;
+    }
+}
+@media(max-width: 768px) {
+    .l-layout .layout__inner {
+        flex-direction: column;
+    }
+}

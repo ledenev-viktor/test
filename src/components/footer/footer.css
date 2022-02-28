@@ -1,0 +1,11 @@
+.l-footer {
+    background: #020621;
+    color: var(--color-tertiary);
+    flex: 0 0 auto;
+}
+.l-footer .footer__inner {
+    max-width: var(--page-desktop);
+    margin: 0 auto;
+}
+.l-footer {}
+.l-footer {}

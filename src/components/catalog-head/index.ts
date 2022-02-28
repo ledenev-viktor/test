@@ -1,0 +1,1 @@
+export { CatalogHead } from "./catalog-head";

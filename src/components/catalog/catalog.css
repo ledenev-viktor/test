@@ -1,0 +1,10 @@
+.b-catalog {
+    margin-left: 50px;
+    flex: 0 1 calc(100% - 50px);
+}
+
+@media(max-width: 768px) {
+    .b-catalog {
+        margin-left: 0;
+    }
+}

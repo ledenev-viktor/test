@@ -1,0 +1,29 @@
+.b-btn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: transparent;
+}
+.b-btn {
+    background: #2196f3;
+    border-color: #2196f3;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: var(--color-quaternary);
+    font-weight: 600;
+    line-height: 1.3;
+    opacity: .8;
+}
+.b-btn:hover {
+    opacity: 1;
+    transition: opacity var(--tr-primary);
+}
+.b-btn.btn--disabled {
+    background: var(--bg-secondary);
+    border: var(--bg-secondary);
+    color: var(--color-secondary);
+    opacity: .6;
+    cursor: default;
+}
+.b-btn.btn--disabled:hover {
+    opacity: .6;
+}
